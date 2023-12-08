@@ -45,7 +45,7 @@ const PhonePage = () => {
   }, [data]);
 
   return (
-    <div className="PhonePage__container container">
+    <div className="featured__container PhonePage__container container">
       <div className="phonepage__header row">
         <div
           id="carouselExampleAutoplaying"
@@ -111,7 +111,7 @@ const PhonePage = () => {
           </div>
         </div>
       </div>
-      <div className="row d-flex">
+      <div className="row d-flex pb-4">
         <div className="header">
           <h3>Phone Accessories</h3>
         </div>

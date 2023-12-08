@@ -111,7 +111,7 @@ const OthersPage = () => {
           </div>
         </div>
       </div>
-      <div className="row d-flex">
+      <div className="row d-flex pb-4">
         <div className="header">
           <h3>Other Accessories</h3>
         </div>
