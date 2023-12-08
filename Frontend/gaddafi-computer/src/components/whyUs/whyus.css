@@ -1,0 +1,13 @@
+.whyus{
+  border-bottom: 5px solid black;
+}
+
+.whyus .row{
+    padding-top: 15px;
+}
+
+.whyus .whyus__info-box{
+    text-align: center;
+    color: black;
+    font-size: 1.125rem;
+}

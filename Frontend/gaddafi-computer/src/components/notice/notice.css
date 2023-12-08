@@ -1,0 +1,50 @@
+.notice__container {
+  background: linear-gradient(
+      120deg,
+      rgba(200, 107, 0, 0.5),
+      25%,
+      rgba(0, 0, 0, 0.808) 50%,
+      rgba(200, 0, 0, 0.5)
+    ),
+    url("../../assets/wepik-export-20231202132512L3BB.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  height: 50vh;
+  margin: 1.25rem 0;
+}
+
+.notice__container-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 49vh;
+}
+
+.notice__container-text span:first-child {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.notice__container-text span:nth-child(2) {
+  color: white;
+  font-weight: 900;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 4rem;
+  letter-spacing: 5px;
+}
+
+@media (max-width: 450px) {
+  .notice__container-text span:nth-child(2) {
+    font-size: 3rem;
+  }
+}
+
+.notice__container-text span:last-child {
+  color: white;
+  font-weight: 500;
+  font-size: 1.5rem;
+}

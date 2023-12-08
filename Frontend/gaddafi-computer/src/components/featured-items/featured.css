@@ -1,0 +1,14 @@
+.featured__container{
+    padding: 4.375rem .625rem;
+}
+
+@media (max-width: 1024px) {
+    .featured__container{
+        padding: 15px;
+    }
+
+    .featured__container h3{
+        font-size: 1.25rem;
+        margin-bottom: 0;
+    }
+}

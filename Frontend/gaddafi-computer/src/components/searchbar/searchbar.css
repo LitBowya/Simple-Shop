@@ -1,0 +1,23 @@
+.searchbar__container {
+  width: 55%;
+}
+
+@media (max-width: 350px) {
+  .searchbar__container{
+    width: 100%;
+  }
+  
+  .searchbar__input input {
+    width: 100vw;
+  }
+}
+
+.searchbar__input input {
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
