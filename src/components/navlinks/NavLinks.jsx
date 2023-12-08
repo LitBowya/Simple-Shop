@@ -21,7 +21,7 @@ const NavLinks = () => {
           </div>
         </div>
         <div className="navlinks__contact">
-          <a href="https://wa.me/0540483399">
+          <a href="https://wa.me/+233540483399">
             <i className="fa-brands fa-whatsapp"></i>
           </a>
           <a href="tel:+233540483399">
